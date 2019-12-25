@@ -10,7 +10,7 @@ mv KAMI/gradlew KAMI-BLUE
 
 rm -rf KAMI
 
-cd KAMI-BLUE
+cd KAMI-BLUE || exit
 
 sed -i 's/KAMI Blue/KAMI Green/g' src/main/resources/mcmod.info
 sed -i 's/KAMI Blue/KAMI Green/g' src/main/java/me/zeroeightsix/kami/KamiMod.java
